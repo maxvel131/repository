@@ -12,7 +12,6 @@
 class CoffeeMaker:
 
     def __init__(self, sugar, cinnamon):
-        self.cost = cost = 10
         self.sugar = sugar
         self.cinnamon = cinnamon
 
