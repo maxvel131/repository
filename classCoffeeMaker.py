@@ -33,6 +33,8 @@ class CoffeeMaker:
         print('Have a great day and I hope to see you soon!\n')
         print('____________________________________________')
         return
+    def capuccino(self):
+        print("""Dear customer, you have ordered capuccino coffee!\n""")
 
 coffeeCup = CoffeeMaker(1,1)
 coffeeCup.espresso()
