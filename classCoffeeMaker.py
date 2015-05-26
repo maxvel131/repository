@@ -33,6 +33,13 @@ class CoffeeMaker:
         print('Have a great day and I hope to see you soon!\n')
         print('____________________________________________')
         return
+    
+    def latte(self):
+        print("""Dear customer, you have ordered latte coffee!\n""")
+        self.sugar = input('How many spoons o sugar you want?')
+        
+        if 2 == self.sugar <= 4:
+            print ("Enjoy your sweet latte!")
 
 coffeeCup = CoffeeMaker(1,1)
 coffeeCup.espresso()
